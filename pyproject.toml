@@ -1,0 +1,10 @@
+[project]
+name = "triangular-moire-nqs-public"
+version = "0.1.0"
+description = "Public portfolio for triangular t-V and moire pinball NQS/ED benchmarks."
+requires-python = ">=3.10"
+dependencies = ["numpy>=1.24"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
