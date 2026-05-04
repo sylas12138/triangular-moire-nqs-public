@@ -71,6 +71,8 @@ Not claimed here:
 docs/
   triangular_tv_benchmark.md       nu=1/3 triangular t-V benchmark logic
   moire_pinball_benchmark.md       nu=2/3 moire t-V1-V2-V3 benchmark logic
+  public_ed_snapshot.md            small public ED screening snapshot
+  finite_size_claim_boundary.md    what can and cannot be claimed
   nqs_ansatz_notes.md              public ansatz design notes
   application_project_summary.md   Chinese application-ready project description
 src/triangular_moire_public/
@@ -79,3 +81,13 @@ examples/
   charge_feature_demo.py           minimal demo
 ```
 
+## 6. Notes for Prospective Advisors
+
+The most useful entry points are:
+
+- [public ED snapshot](docs/public_ed_snapshot.md): a small source-backed table from the moire pinball-candidate screening line;
+- [finite-size claim boundary](docs/finite_size_claim_boundary.md): why I call the signal a ridge candidate, not a finished phase claim;
+- [triangular t-V benchmark](docs/triangular_tv_benchmark.md): the `nu=1/3` generalized-Wigner-crystal sanity line;
+- [moire benchmark](docs/moire_pinball_benchmark.md): the `nu=2/3` extended Hubbard / pinball-like candidate line.
+
+This repository is meant to show how I move from ED screening to NQS benchmark design. It deliberately does not publish raw run trees or ongoing private experiment logs.
