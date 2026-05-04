@@ -1,0 +1,9 @@
+row_id,V1,V2,V3,E_per_site,S_c_K,m_3s,K_per_site,screening_score,public_label
+M-R1,3.000,0.000,1.000,3.953357,1.048116,0.600181,-0.464893,0.487262,metal_candidate
+M-R2,3.000,0.000,0.750,3.693171,1.030894,0.594984,-0.472458,0.487054,metal_candidate
+M-R3,3.250,0.000,0.750,3.974634,1.060937,0.604773,-0.457932,0.485837,metal_candidate
+M-R4,3.250,0.100,1.000,4.392112,1.049658,0.600420,-0.462719,0.485697,metal_candidate
+M-R5,3.250,0.000,0.500,3.714200,1.043046,0.599394,-0.465377,0.485409,metal_candidate
+M-R6,3.250,0.100,0.750,4.131921,1.031887,0.595037,-0.470396,0.485395,metal_candidate
+M-C1,control,control,control,,0.264,0.282,-0.661,,liquid_control_range_low
+M-C2,control,control,control,,0.276,0.289,-0.644,,liquid_control_range_high

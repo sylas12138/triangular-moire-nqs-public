@@ -73,12 +73,25 @@ docs/
   moire_pinball_benchmark.md       nu=2/3 moire t-V1-V2-V3 benchmark logic
   public_ed_snapshot.md            small public ED screening snapshot
   finite_size_claim_boundary.md    what can and cannot be claimed
+  generated_public_report.md       report generated from public CSV data
+  research_roadmap.md              next-step benchmark plan
   nqs_ansatz_notes.md              public ansatz design notes
   application_project_summary.md   Chinese application-ready project description
+data/
+  moire_public_ed_snapshot.csv     small sanitized ED screening table
+scripts/
+  summarize_public_snapshot.py     reproduce docs/generated_public_report.md
 src/triangular_moire_public/
   charge_features.py               lightweight feature helpers
 examples/
   charge_feature_demo.py           minimal demo
+```
+
+Quick local checks:
+
+```bash
+PYTHONPATH=src python examples/charge_feature_demo.py
+python scripts/summarize_public_snapshot.py
 ```
 
 ## 6. Notes for Prospective Advisors
@@ -86,7 +99,9 @@ examples/
 The most useful entry points are:
 
 - [public ED snapshot](docs/public_ed_snapshot.md): a small source-backed table from the moire pinball-candidate screening line;
+- [generated public report](docs/generated_public_report.md): output reproduced from `data/moire_public_ed_snapshot.csv`;
 - [finite-size claim boundary](docs/finite_size_claim_boundary.md): why I call the signal a ridge candidate, not a finished phase claim;
+- [research roadmap](docs/research_roadmap.md): how I would move from finite-cluster ED screening to NQS benchmark closure;
 - [triangular t-V benchmark](docs/triangular_tv_benchmark.md): the `nu=1/3` generalized-Wigner-crystal sanity line;
 - [moire benchmark](docs/moire_pinball_benchmark.md): the `nu=2/3` extended Hubbard / pinball-like candidate line.
 
